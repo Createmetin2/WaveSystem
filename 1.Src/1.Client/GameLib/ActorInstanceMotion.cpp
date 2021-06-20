@@ -12,7 +12,7 @@
 	
 //Add under
 
-#ifdef DISABLE_EARTHQUAKE_SYSTEM
+#ifdef ENABLE_EARTHQUAKE_SYSTEM
 	if (GetRace() == 6091) //Razador
 	{
 		if (uNextMot == CRaceMotionData::NAME_RUN)

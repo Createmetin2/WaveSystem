@@ -8,7 +8,7 @@ void CGraphicBase::SetScreenEffectWaving(float fDuringTime, int iPower)
 
 //Add under
 
-#ifdef DISABLE_EARTHQUAKE_SYSTEM
+#ifdef ENABLE_EARTHQUAKE_SYSTEM
 void CGraphicBase::SetScreenEffectWavingEnd()
 {
 	ms_dwWavingEndTime = 0;
